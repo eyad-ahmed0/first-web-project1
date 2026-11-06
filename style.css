@@ -1,0 +1,175 @@
+body{
+    background-color:rgb(215, 223, 225);
+     font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+border-radius: 50%;
+border: 5px rgb(208, 63, 63) soild;
+box-shadow: 0 15px 40px rgba(135, 116, 172, 0.348);
+transition: 0.4s;
+}
+img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0px 40px rgba(255,251,3,0.885);
+}
+
+
+
+
+
+
+
+
+h1{
+    color:rgb(68, 201, 201);
+    background: linear-gradient(to top,red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    color:rgb(66, 15, 114);
+}
+b{
+    color: blanchedalmond; 
+}
+span{
+    color: rgb(48, 31, 10);
+}
+u{
+    color: rgb(108, 105, 100);
+}
+h3{
+    color: rgb(215, 161, 161);
+}
+div{
+    background: linear-gradient(to top,rgb(248, 156, 156),rgb(109, 109, 180));
+}
+.info{
+    background-color: rgb(127, 224, 176);
+    border-style: dashed;
+    background-image: url(images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about me{
+    background-color: aliceblue;
+    border-style: ridge;
+}
+.grades{
+    background-color: whitesmoke;
+    border-style: groove;
+}
+div{
+    border-radius: 40px;
+    border: 6px blue solid;
+    border-top-color: blue;
+    border-left-color: rgb(189, 208, 39);
+    border-bottom-color: aqua;
+    margin: 70px ;
+    padding: 70px;
+}
+table{
+    background-color: beige;
+    border-color: rgb(58, 70, 132);
+    border-collapse: collapse;
+}
+
+
+th{
+    background-color: aqua;
+    color: rgb(119, 172, 218);
+}
+nav{
+width: 100%;
+padding :0px;
+text-align: center;
+background:  linear-gradient(rgb(81, 81, 224),rgb(195, 45, 45),rgb(103, 23, 103),rgb(163, 163, 201) );
+border-radius: 18px;
+display: flex;
+justify-content: center;
+gap: 12px;
+box-shadow:  0 15px 40px rgba(208, 58, 58,0.34);
+backdrop-filter: blur(10px);
+margin: 0px;
+  top: 0;   
+   position: fixed;
+   z-index: 100;
+
+
+
+
+
+
+
+
+
+
+}
+ nav a{
+background-color: rgb(243, 97, 216);
+border:3px soild rgb(226, 228, 220) ;
+border-radius: 15px;
+color: rgb(151, 83, 214);
+margin:15px ;
+padding:10px;
+text-decoration: none;
+transition: 0.3;
+ 
+
+
+
+}
+nav a:hover{
+background-color: darkviolet;
+color: aliceblue;
+transform: translateY(-4px);
+box-shadow: 0 10px 25px rgba(rgb(153, 131, 131))
+
+
+
+
+}
+section{
+   padding: 5rem 2rem;
+}
+.food{
+    background-color: darkturquoise;
+}
+.parent{
+width: fit-content;
+margin: auto;
+display: flex;
+justify-content: center;
+gap: 50px;
+background-color: red;
+}
+.child{
+    background: whitesmoke;
+padding: 2rem;
+width: 100%;
+border-radius: 15px;
+margin: 20px 0px;
+text-align: center;
+box-shadow: 0 5px 20px rgba(135, 116, 172, 0.348);
+transition: .3s;
+}
+.child:hover{
+transform: scale(1.1);
+}
+.cursor{
+animation: blink 0.8s infinite;
+}
+@keyframes blink{
+0% , 50% {opacity: 1;}
+50.01% , 100% {opacity: 0;}
+}
+
+
+
+
+
+

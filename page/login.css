@@ -1,0 +1,14 @@
+input{
+    padding: 8px;
+border-radius: 35px;
+background-color: aqua;
+color: blueviolet;
+width: 100%;
+box-sizing: border-box;
+transition: 0.3s;
+}
+input:focus, textarea:focus{
+outline: none;
+border-color: cornflowerblue;
+box-shadow: 0 15px 20px rgba(197, 158, 194, 0.959)
+}

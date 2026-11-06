@@ -1,0 +1,32 @@
+body{
+background-color: azure;
+}
+
+.demo-container{
+    background-color: blueviolet;
+border: 3px double darkorchid;
+padding: 20px;
+margin-top: 50px;
+}
+
+.demo-row{
+background-color: aqua;
+min-height: 120px;
+}
+.card-demo{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+}
+.card-demo:hover{
+transform: translatey(-10px);
+
+}
+.icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
